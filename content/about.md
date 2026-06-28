@@ -28,5 +28,6 @@ description: "关于 JavaDev AI — Java + AI 实战博客"
 - GitHub: [JiangXieMing](https://github.com/JiangXieMing)
 - Twitter/X: [@xmj8023](https://twitter.com/xmj8023)
 - Email: jxm58585@gmail.com
+- 微信: EternalRobotJ
 
 *订阅RSS获取最新文章推送。*
