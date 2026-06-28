@@ -1,0 +1,48 @@
+baseURL = "https://javadev.cn/"
+title = "JavaDev AI - Java + AI 实战笔记"
+paginate = 15
+copyright = "© 2026 JavaDev AI. All rights reserved."
+
+[params]
+  description = "专注于Java开发与AI集成的实战博客。LangChain4j教程、Spring AI指南、AI Agent开发、代码审查自动化、独立开发者出海经验。"
+  author = "JavaDev AI"
+  keywords = ["Java", "AI", "LangChain4j", "Spring AI", "代码审查", "AI Agent", "独立开发", "出海"]
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.8
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[[menu.main]]
+  name = "首页"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  name = "文章"
+  url = "/posts/"
+  weight = 2
+[[menu.main]]
+  name = "标签"
+  url = "/tags/"
+  weight = 3
+[[menu.main]]
+  name = "关于"
+  url = "/about/"
+  weight = 4
